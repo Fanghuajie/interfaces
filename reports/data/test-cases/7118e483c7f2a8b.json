@@ -1,0 +1,155 @@
+{
+  "uid" : "7118e483c7f2a8b",
+  "name" : "test_login[http://192.168.3.233:9090/login-{\"username\": \"admin\",\"password\": \"123\"}-post-login-密码错误-500.0-用户或密码错误]",
+  "fullName" : "Testcase.Test_equipment.Test_ep_info#test_login",
+  "historyId" : "5ca864b38f6dd3e557df1ceaa43a710b",
+  "time" : {
+    "start" : 1662552068351,
+    "stop" : 1662552068414,
+    "duration" : 63
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_Test_ep_info",
+    "time" : {
+      "start" : 1662552068349,
+      "stop" : 1662552068349,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "conn_database",
+    "time" : {
+      "start" : 1662552068350,
+      "stop" : 1662552068350,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "clear_yaml",
+    "time" : {
+      "start" : 1662552068254,
+      "stop" : 1662552068255,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_Test_ep_info::0",
+    "time" : {
+      "start" : 1662552068419,
+      "stop" : 1662552068419,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "conn_database::0",
+    "time" : {
+      "start" : 1662552068414,
+      "stop" : 1662552068414,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Testcase"
+  }, {
+    "name" : "suite",
+    "value" : "Test_equipment"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_ep_info"
+  }, {
+    "name" : "host",
+    "value" : "WIN10-fhj"
+  }, {
+    "name" : "thread",
+    "value" : "16528-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Testcase.Test_equipment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "code",
+    "value" : "500.0"
+  }, {
+    "name" : "data",
+    "value" : "'{\"username\": \"admin\",\"password\": \"123\"}'"
+  }, {
+    "name" : "method",
+    "value" : "'post'"
+  }, {
+    "name" : "module",
+    "value" : "'login'"
+  }, {
+    "name" : "msg",
+    "value" : "'用户或密码错误'"
+  }, {
+    "name" : "name",
+    "value" : "'密码错误'"
+  }, {
+    "name" : "url",
+    "value" : "'http://192.168.3.233:9090/login'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "7118e483c7f2a8b.json",
+  "parameterValues" : [ "500.0", "'{\"username\": \"admin\",\"password\": \"123\"}'", "'post'", "'login'", "'用户或密码错误'", "'密码错误'", "'http://192.168.3.233:9090/login'" ]
+}

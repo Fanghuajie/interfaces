@@ -1,0 +1,121 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Testcase",
+    "children" : [ {
+      "name" : "Test_equipment",
+      "children" : [ {
+        "name" : "test_login[http://192.168.3.233:9090/login-{\"username\": \"admin\",\"password\": \"123456\"}-post-login-正常登陆-0.0-操作成功]",
+        "uid" : "bcafe7552d1c20f6",
+        "parentUid" : "0971a57e2dd6b4e33b68b178b38d0292",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662552068257,
+          "stop" : 1662552068341,
+          "duration" : 84
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0.0", "'{\"username\": \"admin\",\"password\": \"123456\"}'", "'post'", "'login'", "'操作成功'", "'正常登陆'", "'http://192.168.3.233:9090/login'" ]
+      }, {
+        "name" : "test_login[http://192.168.3.233:9090/login-{\"username\": \"admin\",\"password\": \"123\"}-post-login-密码错误-500.0-用户或密码错误]",
+        "uid" : "7118e483c7f2a8b",
+        "parentUid" : "0971a57e2dd6b4e33b68b178b38d0292",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662552068351,
+          "stop" : 1662552068414,
+          "duration" : 63
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "500.0", "'{\"username\": \"admin\",\"password\": \"123\"}'", "'post'", "'login'", "'用户或密码错误'", "'密码错误'", "'http://192.168.3.233:9090/login'" ]
+      }, {
+        "name" : "test_login[http://192.168.3.233:9090/login-{\"username\": \"\",\"password\": \"\"}-post-login-用户名和密码为空-500.0-用户或密码错误]",
+        "uid" : "e0622e78e848a413",
+        "parentUid" : "0971a57e2dd6b4e33b68b178b38d0292",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662552068427,
+          "stop" : 1662552068487,
+          "duration" : 60
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "500.0", "'{\"username\": \"\",\"password\": \"\"}'", "'post'", "'login'", "'用户或密码错误'", "'用户名和密码为空'", "'http://192.168.3.233:9090/login'" ]
+      }, {
+        "name" : "test_get_ep_list",
+        "uid" : "16b47e73e3f0c617",
+        "parentUid" : "0971a57e2dd6b4e33b68b178b38d0292",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662552068518,
+          "stop" : 1662552068590,
+          "duration" : 72
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_new_eq[eqinfo0]",
+        "uid" : "ad689e0e7c3150e3",
+        "parentUid" : "0971a57e2dd6b4e33b68b178b38d0292",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662552068594,
+          "stop" : 1662552068659,
+          "duration" : 65
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '创建新设备1', 'request': {'method': 'post', 'url': 'http://192.168.3.233:9090/basedata/equipgroup/save', 'data': {'egCode': 124, 'egName': 84, 'egFlag': 123, 'remark': 'remark', 'isInvalid': 0}}, 'validate': ['equal']}" ]
+      }, {
+        "name" : "test_new_eq[eqinfo1]",
+        "uid" : "eba8f9af9e9f1d85",
+        "parentUid" : "0971a57e2dd6b4e33b68b178b38d0292",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662552068664,
+          "stop" : 1662552068743,
+          "duration" : 79
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '创建新设备2', 'request': {'method': 'post', 'url': 'http://192.168.3.233:9090/basedata/equipgroup/save', 'data': {'egCode': 125, 'egName': 85, 'egFlag': 123, 'remark': 'remark', 'isInvalid': 0}}, 'validate': 'None'}" ]
+      } ],
+      "uid" : "0971a57e2dd6b4e33b68b178b38d0292"
+    }, {
+      "name" : "Test_get_air",
+      "children" : [ {
+        "name" : "test_g",
+        "uid" : "dd77f7afa72386ae",
+        "parentUid" : "fc91412a5b9b8abc8f167757fad4790d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662552068747,
+          "stop" : 1662552068892,
+          "duration" : 145
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_gdata",
+        "uid" : "3b374bb67223f193",
+        "parentUid" : "fc91412a5b9b8abc8f167757fad4790d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662552068895,
+          "stop" : 1662552070380,
+          "duration" : 1485
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fc91412a5b9b8abc8f167757fad4790d"
+    } ],
+    "uid" : "1768d235bc1b7e9f03a50b9faf07df13"
+  } ]
+}

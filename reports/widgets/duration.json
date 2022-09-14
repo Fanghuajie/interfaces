@@ -1,0 +1,81 @@
+[ {
+  "uid" : "16b47e73e3f0c617",
+  "name" : "test_get_ep_list",
+  "time" : {
+    "start" : 1662552068518,
+    "stop" : 1662552068590,
+    "duration" : 72
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bcafe7552d1c20f6",
+  "name" : "test_login[http://192.168.3.233:9090/login-{\"username\": \"admin\",\"password\": \"123456\"}-post-login-正常登陆-0.0-操作成功]",
+  "time" : {
+    "start" : 1662552068257,
+    "stop" : 1662552068341,
+    "duration" : 84
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ad689e0e7c3150e3",
+  "name" : "test_new_eq[eqinfo0]",
+  "time" : {
+    "start" : 1662552068594,
+    "stop" : 1662552068659,
+    "duration" : 65
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3b374bb67223f193",
+  "name" : "test_gdata",
+  "time" : {
+    "start" : 1662552068895,
+    "stop" : 1662552070380,
+    "duration" : 1485
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dd77f7afa72386ae",
+  "name" : "test_g",
+  "time" : {
+    "start" : 1662552068747,
+    "stop" : 1662552068892,
+    "duration" : 145
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e0622e78e848a413",
+  "name" : "test_login[http://192.168.3.233:9090/login-{\"username\": \"\",\"password\": \"\"}-post-login-用户名和密码为空-500.0-用户或密码错误]",
+  "time" : {
+    "start" : 1662552068427,
+    "stop" : 1662552068487,
+    "duration" : 60
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eba8f9af9e9f1d85",
+  "name" : "test_new_eq[eqinfo1]",
+  "time" : {
+    "start" : 1662552068664,
+    "stop" : 1662552068743,
+    "duration" : 79
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7118e483c7f2a8b",
+  "name" : "test_login[http://192.168.3.233:9090/login-{\"username\": \"admin\",\"password\": \"123\"}-post-login-密码错误-500.0-用户或密码错误]",
+  "time" : {
+    "start" : 1662552068351,
+    "stop" : 1662552068414,
+    "duration" : 63
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

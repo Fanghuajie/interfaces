@@ -1,0 +1,9 @@
+-
+  name: 登录接口1
+  request:
+    method: post
+    url: http://192.168.3.233:9090/login
+    data:
+      username: admin
+      password: 123456
+  validate: None
